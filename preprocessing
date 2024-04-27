@@ -1,5 +1,13 @@
 import pandas as pd
 
-spotify_file=
-ts_features=
-ts_tracks=
+spotify_file= "C:\Users\ilayd\OneDrive\Masaüstü\spotify_songs.csv"
+ts_features_file= "C:\Users\ilayd\OneDrive\Masaüstü\taylorswift-Features.csv"
+ts_tracks_file= "C:\Users\ilayd\OneDrive\Masaüstü\taylorswift-Tracks.csv"
+
+#Data reading
+spotify = pd.read_csv(spotify_file)
+ts_features = pd.read_csv(ts_features_file)
+ts_tracks = pd.read_csv(ts_tracks_file)
+
+
+
