@@ -23,14 +23,14 @@ The purpose of this research question is to ensure that Taylor can strategically
 
 ## Inputs
 
-Spotify Songs Dataset
-Taylor Swift Dataset
-TikTok Dataset
+- Spotify Songs Dataset
+- Taylor Swift Dataset
+- TikTok Dataset
 
 ## Outputs
 
-Identification of common patterns: Determine if there are common trends or patterns across the three datasets, such as preferred genres, popular tracks, or characteristic audio features.
-Genre classification: Develop a machine learning model to classify songs into genres based on their audio features. Evaluate the model's performance using cross-validation techniques.
-Predictive modeling: Build predictive models to forecast track popularity or engagement on platforms like Spotify and TikTok based on audio features, artist, and album information.
-Feature importance analysis: Determine which audio features contribute most to track popularity or engagement on different platforms, providing insights for artists and producers.
+- Identification of common patterns: Determine if there are common trends or patterns across the three datasets, such as preferred genres, popular tracks, or characteristic audio features.
+- Genre classification: Develop a machine learning model to classify songs into genres based on their audio features. Evaluate the model's performance using cross-validation techniques.
+- Predictive modeling: Build predictive models to forecast track popularity or engagement on platforms like Spotify and TikTok based on audio features, artist, and album information.
+- Feature importance analysis: Determine which audio features contribute most to track popularity or engagement on different platforms, providing insights for artists and producers.
 
