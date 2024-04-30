@@ -15,7 +15,7 @@ Research Question: What makes a song popular?
 The music industry is constantly evolving, with digital streaming platforms reshaping the way songs are discovered, consumed and popularized. This analysis aims to measure various musical features and their impact on listeners' perception in order to predict the success of Taylor Swift's new song. This project aims to delve into this area to reveal music popularity over the internet using data science techniques.
 
 
-Research Question:What are the criteria for numbering the tracks on Taylor Swift’s album?
+Research Question: What are the criteria for numbering the tracks on Taylor Swift’s album?
 The purpose of this research is to ensure that the order of the songs in Taylor's new album contributes to a consistent artistic expression. Whether based on emotional or musical dynamics, a thoughtful track numbering strategy can improve the listener's overall listening experience. A well-structured album of sequences can be more memorable and effective. It increases its popularity by leaving a mark on the listeners
 
 Research Question: Can the popularity of Taylor Swift’s songs be determined by the season in which they were released? 
