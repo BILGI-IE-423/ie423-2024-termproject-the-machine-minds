@@ -1,3 +1,9 @@
+- 120203054 Ayşe Kocavelioğlu
+- 120203009 Beril Polat
+- 120203068 İlayda Aslan
+- 120203039 Sinem Yontar
+- 120203058 Şevval Yavaş
+  
 # RESEARCH PROPOSAL 
 
 This project's goal is to examine three separate datasets from Spotify, Taylor Swift, and TikTok that provide data about music. In order to obtain insight into music preferences, trends, and features across many platforms, the goal is to use machine learning algorithms to find patterns, similarities, and correlations between these datasets. 
