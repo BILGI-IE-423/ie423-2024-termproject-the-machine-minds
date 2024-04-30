@@ -26,11 +26,11 @@ The purpose of this research is to ensure that the order of the songs in Taylor'
 The purpose of this research question is to ensure that Taylor can strategically determine the release date of her album to maximize its impact by utilizing analysis of seasonal trends. Releasing songs during seasons or times of year when they have historically been more popular can increase their visibility and attract audience attention. In this way, with its knowledge of seasonal preferences, it can shape its marketing and promotional activities accordingly.
 
 ## Inputs
-- Spotify Songs Dataset
-- Taylor Swift Dataset
+- Spotify Songs Dataset (spotify_songs.csv)
+- Taylor Swift Dataset (taylorswift-Features.csv and taylorswift-Tracks.csv)
 - TikTok Dataset
-- Taylor Swift Spotify Dataset
-- Top 10000 1960-Now Dataset
+- Taylor Swift Spotify Dataset (taylor_swift_spotify.csv)
+- Top 10000 1960-Now Dataset (top_10000_1960-now 2.csv)
 
 ## Outputs
 - Identification of common patterns: Determine if there are common trends or patterns across the three datasets, such as preferred genres, popular tracks, or characteristic audio features.
