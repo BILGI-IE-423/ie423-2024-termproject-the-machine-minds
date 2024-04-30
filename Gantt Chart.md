@@ -2,11 +2,13 @@
 
     
 
-mermaid
+```mermaid
+
 gantt
+    dateFormat  YYYY-MM-DD
     title IE 423 Project Timeline
 
-    dateFormat  YYYY-MM-DD
+    
     section Initiation
     Considering Datasets               : done,    p1, 2024-03-01, 2024-03-03
     Finding Extra Dataset              : done,    p2, 2024-03-01, 2024-03-03
