@@ -2,7 +2,7 @@
 
     
 
-''mermaid
+mermaid
 gantt
     title IE 423 Project Timeline
 
