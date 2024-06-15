@@ -4,7 +4,7 @@
 - 120203039 Sinem Yontar
 - 120203058 Şevval Yavaş
   
-# RESEARCH PROPOSAL 
+# The Goal of This Project
 
 This project's goal is to examine three separate datasets from Spotify, Taylor Swift, and TikTok that provide data about music. In order to obtain insight into music preferences, trends, and features across many platforms, the goal is to use machine learning algorithms to find patterns, similarities, and correlations between these datasets. 
 
@@ -39,7 +39,7 @@ The purpose of this research question is to ensure that Taylor can strategically
 - Predictive modeling: Build predictive models to forecast track popularity or engagement on platforms like Spotify and TikTok based on audio features, artist, and album information.
 - Feature importance analysis: Determine which audio features contribute most to track popularity or engagement on different platforms, providing insights for artists and producers.
 
-## What Have Been Done on Preprocessing?
+## Preprocessing Steps
 The 'preprocessData' function in Python is designed to prepare a music track dataset for machine learning by extracting and engineering various features. It begins by copying the original DataFrame and then extracting seasonal information from the release dates, converting months to seasons, and mapping these seasons to numerical values. Additionally, it extracts the month, weekday, and year from the release dates. The function calculates the first release date for each album and determines the days since the previous album's release, incorporating this information back into the DataFrame. It counts the number of tracks per album and adds this count as a new feature. To capture interactions between key audio features, polynomial features are generated and merged with the main DataFrame. Finally, the function drops unnecessary columns, retains only numerical data, and splits the dataset into features (X) and the target variable (y), readying it for machine learning modeling.
 
 ## About The Next Steps
