@@ -30,8 +30,6 @@ The purpose of this research question is to ensure that Taylor can strategically
 - Spotify Songs Dataset (spotify_songs.csv)
 - Taylor Swift Dataset (taylorswift-Features.csv and taylorswift-Tracks.csv)
 - TikTok Dataset
-- Taylor Swift Spotify Dataset (taylor_swift_spotify.csv)
-- Top 10000 1960-Now Dataset (top_10000_1960-now 2.csv)
 
 ## Outputs
 - Identification of common patterns: Determine if there are common trends or patterns across the three datasets, such as preferred genres, popular tracks, or characteristic audio features.
