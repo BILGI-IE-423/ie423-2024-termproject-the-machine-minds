@@ -79,11 +79,4 @@ gantt
     Final Review                       : active, p13, 2024-06-14, 2024-06-19
     Giving Impressive Insights         : active, p14, 2024-06-14, 2024-06-19
 
-'''
-
-## Data Storytelling
-
-Imagine delving into the realm of music data in order to unearth intriguing revelations. What impact do the musical genres utilized on various platforms have on a song's popularity? Why does a song become popular? Let's examine Taylor Swift's discography in particular. What standards are used to assign track numbers to her albums? And does the season in which her songs were released affect how well-liked they are? In order to address these concerns, we will examine trends in track numbering, the effect of genres on different platforms, and seasonal patterns in song popularity by analyzing a dataset that includes information on Taylor Swift's songs. We'll learn more about the elements that influence a song's popularity and the calculated choices that go into album track lists thanks to this investigation.
-
-
 
