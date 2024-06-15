@@ -46,6 +46,12 @@ The 'preprocessData' function in Python is designed to prepare a music track dat
 First of all, as we did the preprocessing of the data, we will develop a model for our case which is suitable. Then, we will validate our model and implement it. After these steps are completed, we will test the model and evaluate this model to see if the chosen model is the best or not. As a consequence, after completing final review, it will be available for us to give impressive insight based on our analysis.
 
 
+# Gantt Chart
+
+    
+
+```mermaid
+
 gantt
     dateFormat  YYYY-MM-DD
     title IE 423 Project Timeline
