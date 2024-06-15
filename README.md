@@ -40,11 +40,8 @@ The purpose of this research question is to ensure that Taylor can strategically
 ## Preprocessing Steps
 The 'preprocessData' function in Python is designed to prepare a music track dataset for machine learning by extracting and engineering various features. It begins by copying the original DataFrame and then extracting seasonal information from the release dates, converting months to seasons, and mapping these seasons to numerical values. Additionally, it extracts the month, weekday, and year from the release dates. The function calculates the first release date for each album and determines the days since the previous album's release, incorporating this information back into the DataFrame. It counts the number of tracks per album and adds this count as a new feature. To capture interactions between key audio features, polynomial features are generated and merged with the main DataFrame. Finally, the function drops unnecessary columns, retains only numerical data, and splits the dataset into features (X) and the target variable (y), readying it for machine learning modeling.
 
-## About The Next Steps
+## About The Next Steps and Gantt Chart
 First of all, as we did the preprocessing of the data, we will develop a model for our case which is suitable. Then, we will validate our model and implement it. After these steps are completed, we will test the model and evaluate this model to see if the chosen model is the best or not. As a consequence, after completing final review, it will be available for us to give impressive insight based on our analysis.
-
-
-# Gantt Chart
 
     
 
