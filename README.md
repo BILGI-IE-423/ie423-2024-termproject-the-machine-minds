@@ -102,8 +102,69 @@ With our clustering model trained, we predicted genres for TikTok songs. We inpu
 
 + ![a](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/3.png)
 
+Analyzing the predicted genres, we discovered how different genres fared in popularity on TikTok:
+R&B and Rock emerged as the leaders, captivating listeners with average popularity scores of 64.16 and 64.14, respectively. Latin (61.60) and Pop (60.39) also showed strong appeal. Rap (56.92) and EDM (52.04) lagged slightly behind.
+
++ ![b](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/4.png)
+
++ ![c](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/5.png)
+
+This insight into genre popularity revealed fascinating trends and audience preferences.
+We then built a Random Forest model to predict song popularity, using both audio features and genre information. This powerful model enabled us to forecast potential hits based on their acoustic characteristics.
+The model's input features included 'energy', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'danceability', and the predicted genre. The Random Forest algorithm, known for its robustness and accuracy, processed these features to predict a song’s popularity score.
+Our predictions provided a glimpse into the future of music trends. For example, a song with high energy and danceability, categorized under pop, might have a higher chance of becoming a hit. This predictive power is invaluable for music producers and marketers, helping them tailor their strategies to align with audience preferences.
+Our model showcases a comprehensive approach to understanding and predicting music popularity. By clustering genres, predicting them for a new dataset, and analyzing their relationship with popularity, we provided valuable insights into what makes a song a hit. Our final Random Forest model stands as a robust tool for predicting future music trends, aiding Taylor Swift and  music producers and marketers in navigating the dynamic world of music.
 
 
+Secondly, in today's music industry, understanding what makes a song popular is crucial for artists aiming to create impactful music. Leveraging Spotify data, our analysis delved into key factors influencing a song's success, employing advanced machine learning techniques to uncover patterns that define hit songs. After meticulously cleaning and preprocessing the dataset, which included encoding categorical variables and handling missing values, we proceeded with modeling.
+Our study employed three robust classifiers: logistic regression, random forest, and gradient boosting machine. These models were trained to predict whether a song would achieve a popularity threshold of 70 on Spotify, translating this prediction into a binary outcome (hit or non-hit). Each model underwent rigorous evaluation, measuring accuracy, and generating detailed confusion matrices that depicted how well predictions aligned with actual outcomes.
+Among the models tested, gradient boosting machine emerged as the most accurate, achieving an impressive accuracy score of approximately 86.5%. This model excelled in correctly identifying hit songs, as evidenced by its strong performance in the confusion matrix and its high area under the ROC curve. Random forest also demonstrated robust predictive power, closely following gradient boosting machine in performance metrics.
+
++ ![ROC Curve](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/6.png)
+
+Delving deeper into feature importance, both models highlighted certain musical attributes as critical for song popularity. Key factors included the duration of the song, its energy level, danceability, and loudness. These findings suggest that songs with optimal duration, high energy, and danceable beats tend to resonate more with listeners, potentially enhancing their chances of becoming hits.
+
++ ![Random Forest](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/7.png)
+
++ ![Gradient Boosting](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/8.png)
+
+Our analysis provides actionable insights for artists like Taylor Swift who are keen on crafting songs with broad appeal. By focusing on these pivotal musical characteristics identified through data-driven approaches, artists can enhance their chances of producing commercially successful music that resonates deeply with audiences on platforms like Spotify. This data-driven approach not only aids in understanding current trends but also guides future artistic decisions to optimize impact and engagement in the competitive landscape of the music industry.
+
+
+Lastly, let’s get into the art of track order and seasonal success. Taylor Swift's albums are more than just collections of songs—they're carefully crafted journeys that invite listeners into her world. When exploring the numbering of tracks on her albums, it's evident that there's no simple formula to predict popularity. Each album tells a unique story, and the arrangement of tracks plays a crucial role in that narrative.
+Consider the diverse popularity patterns across her albums. The image below, a vibrant line graph, illustrates that no single track number consistently outshines the others. Instead, peaks and valleys in popularity vary, highlighting an intriguing trend: Taylor Swift’s music resonates differently across each album, regardless of the track order. This variability suggests that she prioritizes artistic flow and thematic cohesion over positioning potential hits in specific slots.
+
++ ! [Track Order and Popularity](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/9.jpg)
+
+Supporting this, the correlation matrix reveals a fascinating insight—track_number shows minimal correlation with popularity. This underscores that the decision on track placement isn't driven by expected popularity.
+
++ ! [Correlation with Track Order](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/10.jpg)
+
+While the order of tracks on an album follows an artistic logic, the timing of their release is a different story—a strategic masterpiece in its own right. The bar plot below highlights a strong positive correlation between release_date and popularity.
+
++ ! [Correlation with Popularity](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/11.jpg)
+
+Dive deeper, and the correlation matrix reinforces this finding. release_date is a standout feature positively influencing a song’s popularity. This isn't just happenstance. Releasing songs during certain times of the year—think festive holidays, vibrant summers, or even around significant events—can amplify their reach and resonance. During these periods, listeners are more engaged, creating a fertile ground for new releases to thrive.
+Taylor Swift’s approach to her music is a blend of meticulous artistry and strategic acumen. Meanwhile, the timing of her releases demonstrates a keen understanding of market dynamics, ensuring her music not only reaches but resonates with her audience. This focus on artistic integrity and strategic release timing is what sets her apart, making her music not just popular, but timeless.
+
++ ! [Random Forest](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/12.jpg)
+
++ ! [K-Fold Splits for Season and Track Number](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/13.jpg)
+
+Let’s delve into the artistry behind her track order and release timing (season), revealing the subtle yet powerful strategies that make her music resonate across the globe. As the album progresses, there’s a noticeable shift. The tempo picks up, and the beats become more pronounced. By the midway point, the songs are not just heard—they’re felt. The correlation matrix underscores that track number is negatively related to energy, danceability, and loudness. Further, the correlation matrix underscores this point, revealing that the release date is a key factor in a song’s popularity. By strategically timing releases to coincide with high listener engagement periods, they ensure that each song not only reaches but also resonates with its audience. This savvy approach transforms release dates into powerful catalysts for a song’s success, turning each new release into a cultural moment.
+
++ ! [Correlation Matrix for Tyalor Swift Features](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/14.jpg)
+
+Another intriguing trend emerges as you move towards the end of the album. The explicit content in the lyrics tends to increase, aligning with the surge in energy and boldness. This deliberate progression suggests a narrative arc that grows in intensity, echoing the broader themes and emotions Taylor explores. The tracks towards the end are not just louder and more energetic—they’re also more daring, both musically and lyrically.
+What’s more, if the result of Taylor Swift compared with another artist like Shawn Mendes, we can see that the release_date is the most important effector of the popularity.
+
++ ! [Correlation with Popularity for Shawn Mendes](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/15.png)
+
+In essence, Taylor Swift’s artistry is a harmonious blend of meticulous planning and creative brilliance. Her music is a testament to the power of sound, making her not just a pop sensation, but a timeless artist whose work continues to resonate with fans old and new.
+
+# Recommendation
+
+When everything get into account, for Taylor Swift's upcoming album, which should be out in the fall season to be popular, we suggest concentrating on the R&B genre, which is now trending on TikTok, in order to write an unforgettable song. To keep listeners interested, the song should be quite energetic and include a modest amount of speechiness to balance the lyrical substance. Furthermore, a valence score—which indicates a good emotional tone—is essential since songs that arouse pleasant feelings tend to do better. These elements allow Taylor Swift to write a song that speaks to the contemporary music landscape, captivating listeners and gaining broad appeal.
 
 
 
