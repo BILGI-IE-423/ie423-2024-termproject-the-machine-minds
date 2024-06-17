@@ -93,9 +93,9 @@ Loading and Standardizing Data: Ensuring consistency and comparability across so
 Determining Clusters: Using the Elbow Method to find the optimal number of clusters.
 Applying K-Means Clustering: Revealing genre groupings with similar acoustic features.
 
-![1](Images Used in Datastorytelling/1.png)
+![Images Used in Datastorytelling](Images Used in Datastorytelling/1.png)
 
-![2](Images Used in Datastorytelling/2.png)
+![Images Used in Datastorytelling](Images Used in Datastorytelling/2.png)
 
 
 
