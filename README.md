@@ -97,6 +97,11 @@ Applying K-Means Clustering: Revealing genre groupings with similar acoustic fea
 
 + ![Cluster Scatter Plot](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/2.png)
 
+The outcome was a dataset where each song was assigned to a cluster, unveiling patterns and relationships within the music. For instance, songs with high energy and danceability often clustered together, pointing to genres like pop and dance music.
+With our clustering model trained, we predicted genres for TikTok songs. We input the audio features into our model and obtained predicted genre clusters for the TikTok data.
+
++ ![a](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/3.png)
+
 
 
 
