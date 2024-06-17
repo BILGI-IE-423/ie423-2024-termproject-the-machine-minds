@@ -95,6 +95,9 @@ Applying K-Means Clustering: Revealing genre groupings with similar acoustic fea
 
 + ![Elbow Method](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/1.png)
 
++ ![Cluster Scatter Plot](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/2.png)
+
+
 
 
 
