@@ -92,7 +92,9 @@ Using Spotify data, we applied clustering algorithms to group similar genres. Th
 Loading and Standardizing Data: Ensuring consistency and comparability across songs.
 Determining Clusters: Using the Elbow Method to find the optimal number of clusters.
 Applying K-Means Clustering: Revealing genre groupings with similar acoustic features.
+
 ![Elbow Method](Images Used in Datastorytelling/1.jpg)
+
 ![Cluster Scatter Plot](Images Used in Datastorytelling/2.jpg)
 
 
