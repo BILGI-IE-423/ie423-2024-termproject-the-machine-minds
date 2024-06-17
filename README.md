@@ -100,7 +100,7 @@ Applying K-Means Clustering: Revealing genre groupings with similar acoustic fea
 The outcome was a dataset where each song was assigned to a cluster, unveiling patterns and relationships within the music. For instance, songs with high energy and danceability often clustered together, pointing to genres like pop and dance music.
 With our clustering model trained, we predicted genres for TikTok songs. We input the audio features into our model and obtained predicted genre clusters for the TikTok data.
 
-+ ![a](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/3.png)
+
 
 Analyzing the predicted genres, we discovered how different genres fared in popularity on TikTok:
 R&B and Rock emerged as the leaders, captivating listeners with average popularity scores of 64.16 and 64.14, respectively. Latin (61.60) and Pop (60.39) also showed strong appeal. Rap (56.92) and EDM (52.04) lagged slightly behind.
