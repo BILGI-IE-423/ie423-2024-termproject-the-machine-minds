@@ -81,7 +81,7 @@ gantt
     Giving Impressive Insights         : active, p14, 2024-06-14, 2024-06-19
 ```
 
-## The Journey of Predicting Music Popularity: A Data Story
+# The Journey of Predicting Music Popularity: A Data Story
 
 Imagine delving into the realm of music data in order to unearth intriguing revelations. What impact do the musical genres utilized on various platforms have on a song's popularity? Why does a song become popular? Let's examine Taylor Swift's discography in particular. What standards are used to assign track numbers to her albums? And does the season in which her songs were released affect how well-liked they are? In order to address these concerns, we will examine trends in track numbering, the effect of genres on different platforms, and seasonal patterns in song popularity by analyzing a dataset that includes information on Taylor Swift's songs. We'll learn more about the elements that influence a song's popularity and the calculated choices that go into album track lists thanks to this investigation. We made 4 different analysis, we will tell you one by one. 
 
@@ -162,7 +162,7 @@ What’s more, if the result of Taylor Swift compared with another artist like S
 
 In essence, Taylor Swift’s artistry is a harmonious blend of meticulous planning and creative brilliance. Her music is a testament to the power of sound, making her not just a pop sensation, but a timeless artist whose work continues to resonate with fans old and new.
 
-# Recommendation
+## Recommendation
 
 When everything get into account, for Taylor Swift's upcoming album, which should be out in the fall season to be popular, we suggest concentrating on the R&B genre, which is now trending on TikTok, in order to write an unforgettable song. To keep listeners interested, the song should be quite energetic and include a modest amount of speechiness to balance the lyrical substance. Furthermore, a valence score—which indicates a good emotional tone—is essential since songs that arouse pleasant feelings tend to do better. These elements allow Taylor Swift to write a song that speaks to the contemporary music landscape, captivating listeners and gaining broad appeal.
 
