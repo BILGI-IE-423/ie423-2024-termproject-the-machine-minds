@@ -142,7 +142,7 @@ Supporting this, the correlation matrix reveals a fascinating insight—track_nu
 
 While the order of tracks on an album follows an artistic logic, the timing of their release is a different story—a strategic masterpiece in its own right. The bar plot below highlights a strong positive correlation between release_date and popularity.
 
-+ ! [Correlation with Popularity](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/11.jpg)
++ ! [Correlation with Popularity](https://github.com/BILGI-IE-423/ie423-2024-termproject-the-machine-minds/blob/main/Images%20Used%20in%20Datastorytelling/11.jpg) 
 
 Dive deeper, and the correlation matrix reinforces this finding. release_date is a standout feature positively influencing a song’s popularity. This isn't just happenstance. Releasing songs during certain times of the year—think festive holidays, vibrant summers, or even around significant events—can amplify their reach and resonance. During these periods, listeners are more engaged, creating a fertile ground for new releases to thrive.
 Taylor Swift’s approach to her music is a blend of meticulous artistry and strategic acumen. Meanwhile, the timing of her releases demonstrates a keen understanding of market dynamics, ensuring her music not only reaches but resonates with her audience. This focus on artistic integrity and strategic release timing is what sets her apart, making her music not just popular, but timeless.
