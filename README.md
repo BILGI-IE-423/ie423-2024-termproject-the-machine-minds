@@ -81,7 +81,19 @@ gantt
     Giving Impressive Insights         : active, p14, 2024-06-14, 2024-06-19
 ```
 
-## Research Storytelling
+## The Journey of Predicting Music Popularity: A Data Story
 
-deneme
+Imagine delving into the realm of music data in order to unearth intriguing revelations. What impact do the musical genres utilized on various platforms have on a song's popularity? Why does a song become popular? Let's examine Taylor Swift's discography in particular. What standards are used to assign track numbers to her albums? And does the season in which her songs were released affect how well-liked they are? In order to address these concerns, we will examine trends in track numbering, the effect of genres on different platforms, and seasonal patterns in song popularity by analyzing a dataset that includes information on Taylor Swift's songs. We'll learn more about the elements that influence a song's popularity and the calculated choices that go into album track lists thanks to this investigation. We made 4 different analysis, we will tell you one by one. 
+
+First of all, music transcends borders, speaking directly to the soul. But what makes certain songs soar in popularity while others remain unnoticed? This model dives into the heart of this mystery using machine learning, clustering music genres, predicting them for a new dataset, and finally forecasting song popularity.
+Our adventure begins with the rich trove of Spotify data, teeming with audio features such as 'energy', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', and 'danceability'. These attributes provided a nuanced picture of each song's acoustic profile. We also gathered a separate dataset from TikTok to expand our analysis.
+Ensuring consistency, we standardized the data. This crucial step prepared our dataset for the complex task of clustering, which aimed to reveal inherent patterns within the music.
+Using Spotify data, we applied clustering algorithms to group similar genres. This involved:
+Loading and Standardizing Data: Ensuring consistency and comparability across songs.
+Determining Clusters: Using the Elbow Method to find the optimal number of clusters.
+Applying K-Means Clustering: Revealing genre groupings with similar acoustic features.
+![Elbow Method](Images Used in Datastorytelling/1.jpg)
+![Cluster Scatter Plot](Images Used in Datastorytelling/2.jpg)
+
+
 
