@@ -1,7 +1,6 @@
 - 120203054 Ayşe Kocavelioğlu
 - 120203009 Beril Polat
 - 120203068 İlayda Aslan
-- 120203039 Sinem Yontar
 - 120203058 Şevval Yavaş
   
 # The Goal of This Project
